@@ -109,7 +109,7 @@
                 <div class="plus-min">
                     
                     <button id="kurang">-</button>
-                    <input type="number" id="jumlah" value="0" min="0" readonly />
+                    <input type="number" id="jumlah" value="0" min=0"" readonly />
                     <button id="tambah">+</button>
                     <h5>Sisa 5 lagi !</h5>
                 </div> -->
@@ -124,7 +124,7 @@
                   <hr>
                   <div class="plus-min">
                       <button id="decrementBtn" onclick="decrement()" disabled><h4>-</h4></button>
-                      <input type="number" id="quantity" value="0" min="0" max="5" readonly>
+                      <input type="number" id="quantity" value="1" min="1" max="5" readonly>
                       <button id="incrementBtn" onclick="increment()"><h4>+</h4></button><h5>Sisa <span id="remainingStock">5</span> lagi !!!</h5>
                   </div>
               </div>
@@ -133,7 +133,7 @@
                   // Variabel
                   const pricePerItem = 20000;
                   const maxQuantity = 5;
-                  let quantity = 0;
+                  let quantity = 1;
           
                   // Elemen DOM
                   const priceElement = document.getElementById("price");
